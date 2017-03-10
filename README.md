@@ -119,9 +119,7 @@ Administrative Session  : Does not connect to admin session on remote host
 
 ---
 
-Written by Brandon Arvanaghi
+Written by [@arvanaghi](https://twitter.com/arvanaghi)
 
-[arvanaghi.com](https://arvanaghi.com)
 
-[@arvanaghi](https://twitter.com/arvanaghi)
 
