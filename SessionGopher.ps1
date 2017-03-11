@@ -51,7 +51,7 @@ function Invoke-SessionGopher {
          /  ".   SessionGopher
        ,"  _-"      
      ,"   m m         
-  ..+     )      Brandon Arvaanghi
+  ..+     )      Brandon Arvanaghi
      `m..m       https://arvanaghi.com  
   '
 
