@@ -52,7 +52,7 @@ function Invoke-SessionGopher {
        ,"  _-"      
      ,"   m m         
   ..+     )      Brandon Arvanaghi
-     `m..m       https://arvanaghi.com  
+     `m..m       @arvanaghi | arvanaghi.com  
   '
 
   if ($o) {
