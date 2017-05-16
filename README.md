@@ -20,7 +20,7 @@ When run in Thorough mode, it also searches all drives for PuTTY private key fil
 
 ### To run locally
 ```
-. .\SessionGopher.ps1
+Import-Module path\to\SessionGopher.ps1;
 Invoke-SessionGopher -Thorough
 ```
 
@@ -30,17 +30,17 @@ SessionGopher will run under the security context of the account from which you 
 is local admin for the target system, or doing a _runas_ with either of the two, you won't need to supply credentials).
 
 ```
-. .\SessionGopher.ps1
+Import-Module path\to\SessionGopher.ps1;
 Invoke-SessionGopher -AllDomain -u domain.com\adm-arvanaghi -p s3cr3tP@ss
 ```
 or
 ```
-. .\SessionGopher.ps1
+Import-Module path\to\SessionGopher.ps1;
 Invoke-SessionGopher -iL computerlist.txt -u domain.com\adm-arvanaghi -p s3cr3tP@ss -o
 ```
 or 
 ```
-. .\SessionGopher.ps1
+Import-Module path\to\SessionGopher.ps1;
 Invoke-SessionGopher -Target brandonArvanaghi_win7 -Thorough
 ```
 
@@ -52,7 +52,7 @@ Running remotely by adding `-o` (print to CSV) works nicely, as SessionGopher wi
 ### To write to CSV (whether remote or local)
 To have SessionGopher create a folder to neatly contain .csvs of the extracted sessions:
 ```
-. .\SessionGopher.ps1
+Import-Module path\to\SessionGopher.ps1;
 Invoke-SessionGopher -AllDomain -o
 ```
 ... that's it. 
